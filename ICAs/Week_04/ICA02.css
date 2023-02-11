@@ -1,0 +1,57 @@
+header{
+    text-align: center;
+    font-style: italic;
+    font-size:x-large;
+    background-color: rgb(205, 205, 205);
+    font-family: 'Major Mono Display', monospace;
+}
+body{
+    background-color: rgb(255, 232, 177);
+    font-family: 'Zilla Slab', serif;
+}
+a
+{   
+    font-family: 'Oswald', sans-serif;
+    background-color: rgba(139, 199, 189, 0.43);
+    font-size: larger;
+}
+main h1, main h5{
+    text-align: center;
+}
+
+h5{
+    font-size: larger;
+}
+
+.Centered {
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+#ALast {
+    letter-spacing: 10px;
+}
+
+A:visited, A:link{
+    color:green
+}
+
+A:hover{
+    color:yellow
+}
+
+A:active{
+    color:red
+}
+
+nav{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(161, 235, 237);
+    
+}
+footer{
+    background-color: rgb(103, 103, 103);
+}

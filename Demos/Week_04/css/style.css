@@ -1,0 +1,51 @@
+header 
+{
+    background-color: cyan;
+    color:gold;
+    text-align: center;
+    font-size: 30px
+}
+
+
+
+
+/*
+   We use different types of styling to change the display styles of the lists.
+   By default, ordered list items are displayed with numbering, while unordered list items are 
+   displayed with solid circles
+*/
+
+/* Ordered lists items will be displayed with letters, by default */
+
+
+ol {
+
+    list-style-type: lower-alpha;
+}
+
+/*Unordered lists items will be displayed without bullets, by default */
+
+
+ul {
+    list-style-type: none;
+}
+
+
+/*For the list with id "squareUL" items will be displayed with square bullets */
+
+#squareUL {
+    list-style-type: square;
+}
+
+
+/*For the list with id "discUL" items will be displayed with empty circles (discs) bullets */
+
+#romanType {
+    list-style-type: lower-roman;
+}
+
+
+
+#descriptListHeader {
+    text-align: center;
+}

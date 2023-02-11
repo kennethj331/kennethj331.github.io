@@ -1,0 +1,29 @@
+header{
+    text-align: center;
+    font-style: italic;
+    font-size:x-large;
+    background-color: rgb(205, 205, 205);
+    font-family: 'Major Mono Display', monospace;
+}
+body{
+    background-color: bisque;
+    font-family: 'Zilla Slab', serif;
+}
+a
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+}
+main{
+    text-decoration-color: black;
+    font-size: large;
+}
+nav{
+    text-align: right + 50;
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(161, 235, 237);
+    
+}
+footer{
+    background-color: rgb(103, 103, 103);
+}

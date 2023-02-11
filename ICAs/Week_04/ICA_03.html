@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href ="ICA_03.css" type = "text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Text&family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container" >
+        <!-- Header section of the webdite--->
+        <header class="HEADER">
+            <h1> ICA03 CSS Grid</h1>
+        </header>
+
+        <SECTION class="schedule">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="6">This Schedule</th>
+                    </tr>
+                    <tr>
+                        <th> </th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>8:15</td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                    </tr>
+                    <tr>
+                        <td>9:15</td>
+                        <td>CMPE 2000</td>
+                        <td>CMPE 2000</td>
+                        <td> </td>
+                        <td> </td>
+                        <td>CMPE 2000</td>
+                    </tr>
+                    <tr>
+                        <td>10:15</td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td rowspan="6">CMPE 2000</td>
+                        <td> </td>
+                    </tr>
+                    <tr>
+                        <td>11:15</td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                    </tr>
+                    <tr>
+                        <td>12:15</td>
+                        <td colspan="2">CMPE 2000</td>
+                        <td> </td>
+                        <td> </td>
+                    </tr>
+                    <tr>
+                        <td>1:15</td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                    </tr>
+                    <tr>
+                        <td>2:15</td>
+                        <td rowspan="2" colspan="3">CMPE 2000</td>
+                        <td> </td>
+                    </tr>
+                    <tr>
+                        <td>3:15</td>
+                        <td> </td>
+
+                    </tr>
+                    <tr>
+                        <td>4:15</td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                    </tr>
+                    <tr>
+                        <td>5:15</td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                        <td> </td>
+                    </tr>
+                </tbody>
+            </table>
+        </SECTION>
+        
+        <div class="Covers">
+            <img src = "img/Van_Halen_-_1984.jpg" alt = "Van_Halen" height="200px" width="200px">
+            <img src = "img/Boston.jpg" alt = "Boston" height="200px" width="200px">
+            <img src = "img/Pink_Floyd.jpg" alt = "Pink Floyd" height="200px" width="200px">
+            <img src = "img/AC-DC.jpeg" alt = "AC/DC" height="200px" width="200px">
+            <img src = "img/Queen.jpg" alt = "Queen" height="200px" width="200px">
+        </div>
+
+        <aside class="alert">
+            <img src = "img/Red_Alert.gif" alt = "Alert" height="200px" width="200px"> </gif>
+        </aside>
+
+        <ASIDE id="Entities">
+            <h2>Entities</h2>
+            <p>01 &radic;; - Square Root</p>
+            <p>02 &trade; - Trade Mark</p>
+            <p>03 &copy; - Copyright</p>
+            <p>04 &infin; - Infinity</p>
+        </ASIDE>
+
+        <NAV class="bands">
+            <h2>Band List</h2>
+            <ul>
+                <a href="https://www.vhnd.com/"><li>Van Halen</li></a>
+                <a href="https://bandboston.com/"><li>Boston</li></a>
+                <a href="https://www.pinkfloyd.com/home.php"><li>Pink Floyd</li></a>
+                <a href="https://www.acdc.com/"><li>AC/DC</li></a>
+                <a href="https://www.queenonline.com/"><li>Queen</li></a>
+            </ul>
+        </NAV>
+
+        <SECTION id="feed">
+            <p>
+            <use>Spock<dot>:</dot></use> Beam me up !
+            </p>
+            <p>
+                <use>Kirk<dot>:</dot></use> Not right now, maybe later...
+            </p>
+        </SECTION>
+
+        <FOOTER class="footer">
+            <p> Copiright &copy; Nait College: 2003</p>
+            <script>
+                      document.write("last modified on: " + document.lastModified)
+            </script>
+        </FOOTER>
+    </div>
+</body>
+</html>

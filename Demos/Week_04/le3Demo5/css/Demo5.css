@@ -1,0 +1,12 @@
+th,td {
+    border: 2px dotted green;
+    padding:10px;
+    text-align: center;
+    }
+th{
+     font-size:1.5em;
+    }
+    
+table {
+   border-collapse:collapse;
+}
